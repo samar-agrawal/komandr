@@ -103,6 +103,7 @@ Correct one should be
     lame_command Hello World 2013
 
 Python3 example:
+
 .. code-block:: console
 
     $ python3 example.py cool_command Hello -z 2013 World
