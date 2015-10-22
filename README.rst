@@ -8,6 +8,15 @@ Komandr is a smart thin wrapper around powerful ``argparse`` module lets you
 build defacto standart command-line interfaces in secondz while providing you
 all the flexibity.
 
+Installation
+------------
+
+Python 2.6, 2.7:
+Installation should be a simple as pip install komandr (if you have pip installed)
+
+Python3:
+Clone the repo, and run python3 setup.py develop
+
 Example
 -------
 
@@ -91,6 +100,12 @@ Correct one should be
 .. code-block:: console
 
     $ python example.py cool_command Hello -z 2013 World
+    lame_command Hello World 2013
+
+Python3 example:
+.. code-block:: console
+
+    $ python3 example.py cool_command Hello -z 2013 World
     lame_command Hello World 2013
 
 Showcase
